@@ -61,7 +61,7 @@ def countdown():
 def change_color():
     global color_counter
     if color_counter != score:
-        player.color(turtle_colors[randint(0,10)])
+        player.color(turtle_colors[randint(0,9)])
         color_counter = score
     else:
         pass
